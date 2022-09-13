@@ -53,6 +53,9 @@
 .navbar ul li:hover::before{
     width: 100%;
 }
+.formulario {
+    padding-left: 20PX;
+}
 .formulario label{
     color: #f7b731;
     margin: 0;

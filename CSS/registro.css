@@ -1,4 +1,5 @@
 *{
+    
     margin: 0;
     padding: 0;
 }
@@ -20,13 +21,19 @@ body {
     background-repeat: no-repeat;
 }   
 
-a {
-    text-decoration: none;
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding: 5px;
+}
+
+.logo {
     display: flex;
     align-items: center;
 }
 .siglas {
-    font-size: 100px;
+    font-size: 70px;
     color: var(--primary-color);
 }
 .nomEmpresa{
@@ -34,20 +41,41 @@ a {
     color: var(--secundary-color);
 }
 
+.reg-pic{
+ margin:0 50px;   
+ height: 300px;
+ width: 250px;
+ background-color: white;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
+ position: relative;
+ top:50px;
+
+}
+
+main{
+    display: flex;
+    gap:50px;
+}
+
+body h1{
+    color: #f6640a;
+    margin-left: 20%;
+}
+
 #menu {
 	color: #FFF;
 	height: 50px;
 	padding-left: 18px;
-	border-radius: 10px;
+    position: relative;
+    top: 70px;
 }
 #menu ul, #menu li {
 	margin: 0 auto;
-	padding: 0;
 	list-style: none
 }
-#menu ul {
-	width: 100%;
-}
+
 #menu li {
 	float: right;
 	display: inline;
@@ -55,7 +83,7 @@ a {
 }
 #menu a {
 	display: block;
-	line-height: 50px;
+	line-height: 15px;
 	padding: 0 14px;
 	text-decoration: none;
 	color:var(--secundary-color);
@@ -123,6 +151,49 @@ a {
 	background: #F2F2F2;
 	color: #444444;
 }
+.formulario {
+    padding-left: 20PX;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 20px;
+}
+.formulario label{
+    color: #f7b731;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+
+}
+
+.form-info{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.form-info input{
+    height: 20px;
+    width: 300px;
+}
+
+.form-buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form-buttons input{
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    border: transparent;
+    color: #f6640a;
+
+}
+
+
 @media screen and (max-width: 800px){
 	#menu {position:relative}
 	#menu ul {background:#111;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
@@ -190,15 +261,3 @@ a {
     width: 100%;
 }
 */
-.formulario {
-    padding-left: 20PX;
-    padding-top: 20px;
-}
-.formulario label{
-    color: #f7b731;
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
-    display: block;
-
-}

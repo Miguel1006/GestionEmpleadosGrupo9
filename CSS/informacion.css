@@ -54,6 +54,11 @@ body {
 
 }
 
+.reg-pic figure img{
+	height: 100%;
+	width: 100%;
+}
+
 main{
     display: flex;
     gap:50px;

@@ -11,81 +11,79 @@
 </head>
 <body>
     <header class="cabecera">
-        <nav class="navbar">
-            <a class="logo" href="/images/empleo (1).png">
-                <img src="/images/empleo (1).png" alt="Empleo" height="200" width="200" />
+            <figure class="logo" href="/images/empleo (1).png">
+                <img src="/images/empleo (1).png" alt="Empleo" height="100" width="100" />
                 <div>
                     <div class="siglas">Sigem</div>
                     <div class="nomEmpresa">Sistema de gestion de empleados</div>
                 </div>              
-            </a>
+            </figure>
             <nav id='menu'>
                 <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
                 <ul>
-                  <li><a href='index.html'>Home</a></li>
+                  <li><a href='index.html'>Log out</a></li>
                   <li><a href='registro.html'>Registro</a></li>
                   <li><a href='informacion.html'>Informacion</a></li>
                   <li><a href='retroalimentacion.html'>Retroalimentación</a></li>
                 </ul>
               </nav>
-
-        </nav>
     </header>
-    <!--
-    <div class="container">
-        <div class="navbar">
-            <img src="/images/empleo (1).png" class="logo" alt="Main Logo" >
-            <header class="cabecera">
-                <h1> Gestion de Empleados</h1>
-            </header>
-        <ul>
-            <li><a href="index.html"> Home </a></li>
-            <li><a href="registro.html"> Registro </a></li>
-            <li><a href="informacion.html"> Informacion </a></li>
-            <li><a href="retroalimentacion.html"> Retroalimentacion </a></li>
-        </ul>
+    <h1>Registro de Información nuevo empleado.</h1>
+    <main>
+         
+        <div class="reg-pic">
+            <figure>
+                <img src="#" alt="foto del empleado">
+            </figure>
+            <button>Cargar</button>
         </div>
-    -->
+
         <form class="formulario">
-            <label for="inombre">Nombre: </label>
-            <input id="inombre" type="text"  name="nombre">
-
-            <label for="iapellido">Apellido: </label>
-            <input id="iapellido" type="text"  name="apellido">
-
-            <label for="idocumento">Documento: </label>
-            <input id="idocumento" type="text"  name="documento">
-        </form>
-        <br>
-        <form class="formulario">
-            <label for="iedad">Edad: </label>
-            <input id="iedad" type="text"  name="edad">
-
-            <label for="if_nacimiento">Fecha de nacimiento: </label>
-            <input id="if_nacimiento" type="text"  name="f_nacimiento"> 
-
-            <label for="idireccion">Direccion: </label>
-            <input id="idireccion" type="text"  name="direccion">
-            <br>
-            <br>
-            <label for="itel">Telefono: </label>
-            <input id="itel" type="text"  name="tel">        
+            <div class="form-info">
+                <label for="inombre">Nombre: </label>
+                <input id="inombre" type="text"  name="nombre">
+                <label for="iapellido">Apellido: </label>
+                <input id="iapellido" type="text"  name="apellido">
+                <label for="idocumento">Documento: </label>
+                <input id="idocumento" type="text"  name="documento">
+                <label for="iedad">Edad: </label>
+                <input id="iedad" type="text"  name="edad">
+                <label for="if_nacimiento">Fecha de nacimiento: </label>
+                <input id="if_nacimiento" type="text"  name="f_nacimiento"> 
+                <label for="idireccion">Direccion: </label>
+                <input id="idireccion" type="text"  name="direccion">
+                <label for="itel">Telefono: </label>
+                <input id="itel" type="text"  name="tel">        
+                <label for="icorreo">Correo electronico: </label>
+                <input id="icorreo" type="email"  name="correo"> 
+            </div>
+            <div class="form-buttons">
+                <input type="submit" value="Cargar">
+                <input type="reset" value="Limpiar">
+            </div>
             
-            <label for="icorreo">Correo electronico: </label>
-            <input id="icorreo" type="email"  name="correo"> 
-            <br>
-            <br>
-            <input type="submit" value="Cargar">
-            <input type="reset" value="Limpiar">
+            
+        </form>
+        <form class="formulario" action="">
+            <div class="form-info">
+                <label for="itipo">Tipo de contrato: </label>
+                <input id="itipo" type="text"  name="tipo">
+                <label for="ifechaing">Fecha de ingreso: </label>
+                <input id="ifechaing" type="date"  name="fecha-ingreso">
+                <label for="ifechasal">Fecha de salida: </label>
+                <input id="ifechasal" type="date"  name="fecha-salida">
+                <label for="iDependencia">Dependencia: </label>
+                <input id="iDependencia" type="text"  name="Dependencia">
+                <label for="iCargo">Cargo: </label>
+                <input id="iCargo" type="text"  name="Cargo">
+                <label for="iSalario">Salario: </label>
+                <input id="iSalario" type="text"  name="Salario">
+                <label for="icontraseña">Contraseña: </label>
+                <input id="iContraseña" type="text"  name="Contraseña">
+            </div>
         </form>
     </div>
+    </main>
+
 </body>
 </html>
-<!--
-                <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="registro.html">Registro</a></li>
-                <li><a href="informacion.html">Información</a></li>
-                <li><a href="retroalimentacion.html">Retroalimentación</a></li>
-            </ul>
--->

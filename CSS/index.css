@@ -1,4 +1,5 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -9,6 +10,8 @@
     --secundary-color: rgb(243, 179, 3);
     --text-color-inverse: black;
     --navbar-shadow-color: green;
+    --light-blue-color:rgba(91, 212, 236, 0.8)
+    --logo-color:rgb(106, 197, 136);
 }
 
 body {
@@ -21,9 +24,9 @@ body {
     background-repeat: no-repeat;
 }   
 
-a {
+.logo {
     text-decoration: none;
-    color: rgb(106, 197, 136);
+    color:var(logo-color);
     display: flex;
     font-size: 30Px;
 }
@@ -50,6 +53,7 @@ a {
     padding-left: 14px;
 
 }
+
 .login-box .logoUsuario{
     width: 120px;
     height: 120px;
@@ -58,6 +62,16 @@ a {
     left:165px;
 }
 .login-box h1{
+    margin: 0;
+    padding: 70px 0 20px;
+    text-align: center;
+}
+
+.reset-form{
+    position: relative;
+    top:70px;
+}
+.login-box h2{
     margin: 0;
     padding: 70px 0 20px;
     text-align: center;
@@ -74,6 +88,7 @@ a {
     margin-bottom: 20px;
 }
 .login-box input[type="text"],
+.login-box input[type="email"],
 .login-box input[type="password"] {
     border: none;
     border-bottom: 1px solid #fff;
@@ -91,6 +106,7 @@ a {
     color : #fff;
     font-size: 18px;
     border-radius: 20px;
+    cursor: pointer;
 }
 .login-box a{
     text-decoration: none;
@@ -100,6 +116,24 @@ a {
 }
 .login-box a:hover{
     color: aliceblue;
+}
+
+.img-Gestion{
+    margin: 10px;
+}
+
+.login-Buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.areset{
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 20px;
+    color:red; 
 }
 /*
 .container{

@@ -111,8 +111,9 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    color: #FFB870;
+    color: var(--logo-color);
     margin: 30px 0 0 10px;
+    font-weight: bold;
 }
 
 .input-login{
@@ -163,11 +164,11 @@ body {
     animation: valid 1s forwards;
 }
 
-.fa-gg-circle{
+.fa-gear{
     width: 28px;
     font-size: large;
     margin: auto;
-    color: #FFB870;
+    color: var(--logo-color);
     animation:spin 2s infinite ;
 }
 

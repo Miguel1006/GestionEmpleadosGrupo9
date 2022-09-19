@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --theme-color: #fff;
+    --primary-color: rgb(246, 100, 10);;
+    --secundary-color: rgb(243, 179, 3);
+    --text-color-inverse: black;
+    --navbar-shadow-color: green;
+    --light-blue-color:rgba(91, 212, 236, 0.8)
+    --logo-color:rgb(106, 197, 136);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(5,10,5,0.80), rgba(91, 212, 236, 0.8)), url(/images/back4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}   
+
+.logo {
+    text-decoration: none;
+    color:var(logo-color);
+    display: flex;
+    font-size: 30Px;
+}
+.siglas {
+    font-size: 115px;
+    color: var(--primary-color);
+}
+.nomEmpresa{
+    font-size: 20px;
+    color: var(--secundary-color);
+}
+
+.login-box{
+    width: 430px;
+    height: 520px;
+    background: #015d4c;
+    color: rgb(3, 222, 124);
+    top: 50%;
+    left: 75%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding:70px, 70px;
+    padding-left: 14px;
+
+}
+
+.login-box .logoUsuario{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: -50px;
+    left:165px;
+}
+.login-box h1{
+    margin: 0;
+    padding: 70px 0 20px;
+    text-align: center;
+}
+
+.reset-form{
+    position: relative;
+    top:70px;
+}
+.login-box h2{
+    margin: 0;
+    padding: 70px 0 20px;
+    text-align: center;
+}
+.login-box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+
+}
+.login-box input {
+    width: 95%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"],
+.login-box input[type="email"],
+.login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background:transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(30, 192, 198);
+    color : #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.login-box a{
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 20px;
+    color: darkgray; 
+}
+.login-box a:hover{
+    color: aliceblue;
+}
+
+.img-Gestion{
+    margin: 10px;
+}
+
+.login-Buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.areset{
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 20px;
+    color:red; 
+}
+

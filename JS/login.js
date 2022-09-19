@@ -19,8 +19,8 @@ username.oninput=function(){
         form.action="./HTML/informacion.html";
     }else if(this.value==b){
         form.action="./HTML/registro.html";
-        }else{username_valid=false;
-    }
+        username_valid=true;
+    }else username_valid=false
 form_valid(username_valid,password_valid);
 }
 

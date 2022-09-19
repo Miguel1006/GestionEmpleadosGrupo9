@@ -52,7 +52,7 @@ body {
     box-sizing: border-box;
     padding:70px, 70px;
     padding-left: 14px;
-
+    border-radius: 30px;
 }
 
 .login-box .logoUsuario{

@@ -21,12 +21,67 @@
         <nav id='menu'>
             <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
             <ul>
-              <li><a href='../index.html'>Log out</a></li>
-              <li><a href='./registro.html'>Registro</a></li>
-              <li><a href='./informacion.html'>Informacion</a></li>
-              <li><a href='./retroalimentacion.html'>Retroalimentación</a></li>
+                <li><a href='/index.html'>Log out</a></li>
+                <li><a href='/HTML/registro.html'>Registro Emp</a></li>
+                <li><a href='/HTML/registroadmin.html'>Registro Admin</a></li>
+                <li><a href='/HTML/informacion.html'>Informacion</a></li>
+                <li><a href='/HTML/retroalimentacion.html'>Retroalimentación</a></li>
             </ul>
           </nav>
 </header>
+<h1>Registro de Retroalimentacion y Puntaje</h1>
+<main>
+    <div class="retro-search">
+        <h3>Ingrese el numero de documento del empleado</h3>
+        <label for="documento"></label>
+        <input type="text" name="documento">
+        <button>Buscar</button>
+        <div class="reg-pic">
+            <figure>
+                <img src="https://us.123rf.com/450wm/thesomeday123/thesomeday1231712/thesomeday123171200009/91087331-icono-de-perfil-de-avatar-predeterminado-para-hombre-marcador-de-posici%C3%B3n-de-foto-gris-vector-de-ilu.jpg?ver=6" alt="foto del empleado">
+            </figure>
+        </div>
+    </div>
+    <form class="formulario">
+            <div class="form-info">
+                <label for="inombre">Nombre: </label>
+                <label class="label-info" for="inombre">NOMBRE NOMBRE </label>
+                <label for="iapellido">Apellido: </label>
+                <label class="label-info" for="iapellido">APELLIDO APELLIDO </label>
+                <label for="idocumento">Documento: </label>
+                <label class="label-info" for="idocumento">XXXXXXXXXXX</label>
+                <label for="itel">Telefono: </label>
+                <label class="label-info" for="itel">+XX XXX XXX XXXX </label>    
+                <label for="icorreo">Correo electronico: </label>
+                <label class="label-info" for="icorreo">XXXXXXXXX@xxxxx.com </label>
+                
+            </div>
+            <div class="form-info">
+                <label for="itipo">Tipo de contrato: </label>
+                <label class="label-info" for="icorreo">XXXXXXXX </label>
+                <label for="ifechaing">Fecha de ingreso: </label>
+                <label class="label-info" for="icorreo">xx/xx/xxxx </label>
+                <label for="ifechasal">Fecha de salida: </label>
+                <label class="label-info" for="icorreo">xx/xx/xxxx </label>
+                <label for="iDependencia">Dependencia: </label>
+                <label class="label-info" for="icorreo">XXXXXXXXXXXX </label>
+                <label for="iCargo">Cargo: </label>
+                <label class="label-info" for="icorreo">XXXXXXXXXX </label>
+            </div>
+        </form>
+        <div class="retro-div">
+            <h2>Ingrese la retroalimentacion</h2>
+            <div class="retroalimentacion">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque placeat at, vel consequatur corrupti dolorem ex nostrum iusto quaerat rem, id eum voluptates in ab praesentium? Vel, minus inventore magnam rem qui optio! Recusandae neque ipsum ratione vero ut. Nobis molestias nulla accusantium odit soluta rem quas similique repellendus quibusdam.</p>
+                <br>
+                </div>
+            <button class="retro-div-button">Ingresar</button>
+            <div class="puntuacion">
+                <h2>Ingrese la puntuacion:</h2>
+                <input type="text">
+                <button>Guardar</button>
+            </div>
+        </div>
+</main>
 </body>
 </html>

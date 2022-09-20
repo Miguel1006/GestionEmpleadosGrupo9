@@ -62,11 +62,15 @@ body {
 main{
     display: flex;
     gap:50px;
+	margin-top: 40px;
+	justify-content: center;
 }
 
-body h1{
-    color: #f6640a;
-    margin-left: 20%;
+.tittle{
+    width: 100%;
+	text-align: center;
+	color: #f6640a;
+    
 }
 
 #menu {

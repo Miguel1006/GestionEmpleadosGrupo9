@@ -16,7 +16,7 @@ var password_valid=false;
 username.oninput=function(){
     if(this.value==a){
         username_valid=true;
-        form.action="./HTML/informacion.html";
+        form.action="./HTML/informacion2.html";
     }else if(this.value==b){
         form.action="./HTML/registro.html";
         username_valid=true;
